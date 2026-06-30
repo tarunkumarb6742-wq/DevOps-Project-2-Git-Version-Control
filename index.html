@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport configuration -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional DevOps Engineer Portfolio - Showcasing Git, GitHub, and Cloud Technologies">
+    <meta name="keywords" content="DevOps, Engineer, Portfolio, Git, GitHub, Cloud">
+    
+    <!-- Page title displayed in browser tab -->
+    <title>DevOps Engineer Portfolio</title>
+    
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar Section -->
+    <!-- Sticky header that remains visible while scrolling -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand name -->
+            <div class="nav-logo">
+                <span class="logo-icon">◆</span>
+                DevOps Portfolio
+            </div>
+            
+            <!-- Navigation menu links -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile menu toggle button -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <!-- Hero/Landing section with introduction -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to My DevOps Journey</h1>
+            <p class="hero-subtitle">Cloud Infrastructure | CI/CD Pipelines | Version Control</p>
+            <p class="hero-description">
+                As a DevOps Engineer, I specialize in automating infrastructure, managing cloud platforms, 
+                and implementing Git version control best practices.
+            </p>
+            <button class="cta-button" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                Explore My Work
+            </button>
+        </div>
+        <div class="hero-image">
+            <div class="placeholder-image">◆ DevOps</div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <!-- Personal information and professional background -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Bodaballa Tarun Kumar</h3>
+                    <p>
+                        I am a passionate DevOps Engineer with hands-on experience in designing and maintaining 
+                        cloud infrastructure, implementing CI/CD pipelines, and version control systems. 
+                        My expertise includes Docker, Kubernetes, Git, GitHub, AWS, and Linux administration.
+                    </p>
+                    <p>
+                        This portfolio project demonstrates my understanding of Git and GitHub workflows, 
+                        essential for DevOps collaboration and code management. I believe in continuous 
+                        learning and staying updated with the latest DevOps technologies and best practices.
+                    </p>
+                    
+                    <!-- Professional statistics -->
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>25+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <!-- Technical skills and competencies -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-grid">
+                <!-- Version Control Skills -->
+                <div class="skill-category">
+                    <h3>Version Control</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Git</span></li>
+                        <li><span class="skill-badge">GitHub</span></li>
+                        <li><span class="skill-badge">GitLab</span></li>
+                        <li><span class="skill-badge">Bitbucket</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Containerization Skills -->
+                <div class="skill-category">
+                    <h3>Containerization</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Docker</span></li>
+                        <li><span class="skill-badge">Kubernetes</span></li>
+                        <li><span class="skill-badge">Docker Compose</span></li>
+                        <li><span class="skill-badge">Helm</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Cloud Platforms -->
+                <div class="skill-category">
+                    <h3>Cloud Platforms</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">AWS</span></li>
+                        <li><span class="skill-badge">Azure</span></li>
+                        <li><span class="skill-badge">GCP</span></li>
+                        <li><span class="skill-badge">DigitalOcean</span></li>
+                    </ul>
+                </div>
+                
+                <!-- CI/CD Tools -->
+                <div class="skill-category">
+                    <h3>CI/CD Tools</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Jenkins</span></li>
+                        <li><span class="skill-badge">GitHub Actions</span></li>
+                        <li><span class="skill-badge">GitLab CI</span></li>
+                        <li><span class="skill-badge">CircleCI</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Operating Systems -->
+                <div class="skill-category">
+                    <h3>Operating Systems</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Linux</span></li>
+                        <li><span class="skill-badge">Ubuntu</span></li>
+                        <li><span class="skill-badge">CentOS</span></li>
+                        <li><span class="skill-badge">Windows Server</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Infrastructure as Code -->
+                <div class="skill-category">
+                    <h3>Infrastructure as Code</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Terraform</span></li>
+                        <li><span class="skill-badge">Ansible</span></li>
+                        <li><span class="skill-badge">CloudFormation</span></li>
+                        <li><span class="skill-badge">Puppet</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <!-- Portfolio of completed projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Git Version Control Basics -->
+                <div class="project-card">
+                    <div class="project-icon">📦</div>
+                    <h3>DevOps Project 1 - Git Basics</h3>
+                    <p>
+                        Beginner-friendly project demonstrating essential Git and Linux command-line skills. 
+                        Covers file manipulation, directory navigation, and basic DevOps workflows.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">CLI</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+                
+                <!-- Project 2: Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>DevOps Project 2 - Portfolio Site</h3>
+                    <p>
+                        Modern responsive portfolio website built with HTML, CSS, and JavaScript. 
+                        Demonstrates professional web development practices and Git repository management.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+                
+                <!-- Project 3: Docker Containerization -->
+                <div class="project-card">
+                    <div class="project-icon">🐳</div>
+                    <h3>DevOps Project 3 - Docker Setup</h3>
+                    <p>
+                        Complete Docker containerization guide with multi-stage builds, image optimization, 
+                        and Docker Compose orchestration examples.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Docker</span>
+                        <span class="tag">Containers</span>
+                        <span class="tag">DevOps</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+                
+                <!-- Project 4: Kubernetes Deployment -->
+                <div class="project-card">
+                    <div class="project-icon">☸️</div>
+                    <h3>DevOps Project 4 - Kubernetes</h3>
+                    <p>
+                        Kubernetes deployment guides covering YAML manifests, services, ingress configuration, 
+                        and production-ready cluster setup best practices.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">K8s</span>
+                        <span class="tag">Orchestration</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+                
+                <!-- Project 5: CI/CD Pipeline -->
+                <div class="project-card">
+                    <div class="project-icon">⚙️</div>
+                    <h3>DevOps Project 5 - CI/CD Pipeline</h3>
+                    <p>
+                        Automated CI/CD pipeline using GitHub Actions with testing, building, and deployment stages. 
+                        Integration with AWS for production deployments.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">GitHub Actions</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+                
+                <!-- Project 6: Infrastructure as Code -->
+                <div class="project-card">
+                    <div class="project-icon">🏗️</div>
+                    <h3>DevOps Project 6 - Terraform IaC</h3>
+                    <p>
+                        Infrastructure as Code using Terraform to provision AWS resources. Demonstrates modularity, 
+                        state management, and infrastructure automation best practices.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Terraform</span>
+                        <span class="tag">IaC</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <!-- Contact information and communication channels -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Feel free to reach out for collaborations or opportunities</p>
+            
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:tarunrock765@gmail.com">tarunrock765@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com" target="_blank">github.com/odaballa</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://linkedin.com" target="_blank">linkedin.com/in/tarunbodaballa</a></p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <!-- Footer with copyright and additional links -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Bodaballa Tarun Kumar. All rights reserved.</p>
+            <p>DevOps Engineer | Cloud Architect | Continuous Integration Specialist</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" title="GitHub">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">LinkedIn</a>
+                <a href="https://twitter.com" target="_blank" title="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
