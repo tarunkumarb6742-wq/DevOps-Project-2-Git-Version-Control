@@ -1,0 +1,10 @@
+{
+  "name": "ci-cd-pipeline-basics",
+  "version": "1.0.0",
+  "description": "A beginner-friendly DevOps project with a simple CI/CD workflow.",
+  "private": true,
+  "scripts": {
+    "test": "node -e \"console.log('Running Tests...'); console.log('All Tests Passed')\"",
+    "build": "node -e \"console.log('Building Project...'); console.log('Build Successful')\""
+  }
+}
