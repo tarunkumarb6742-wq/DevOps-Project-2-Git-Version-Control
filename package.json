@@ -1,10 +1,10 @@
 {
-  "name": "ci-cd-pipeline-basics",
+  "name": "serverhub-marketplace-demo",
   "version": "1.0.0",
-  "description": "A beginner-friendly DevOps project with a simple CI/CD workflow.",
+  "description": "A responsive server marketplace and mediator workflow demo.",
   "private": true,
   "scripts": {
-    "test": "node -e \"console.log('Running Tests...'); console.log('All Tests Passed')\"",
-    "build": "node -e \"console.log('Building Project...'); console.log('Build Successful')\""
+    "test": "node --test",
+    "build": "node --check script.js && node --check serverhub-core.js && node --check serverhub-provisioning.js"
   }
 }
